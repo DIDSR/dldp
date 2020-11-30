@@ -1,0 +1,9 @@
+TYPE=normal
+source ./config_generic_cn_true.txt
+
+FILE_DIR=/scratch/wxc4/CAMELYON16-training/normal
+LISTFILE=list_normal.txt
+SPLIT_BASE_DIR=/scratch/mikem/UserSupport/weizhe.li/"$TYPE"_sg_"$PATCH_SIZE"_"$SPLIT_SIZE"
+LOOKUP_FILE="$SPLIT_BASE_DIR"/lookup.txt                # cannot be csv extension
+NUM_HDF5_DS="$SPLIT_BASE_DIR"/num_hdf5_ds.txt
+export INDEX_DIR=/home/weizhe.li/li-code4hpc/pred_dim_0314/training-updated/normal/patch_index

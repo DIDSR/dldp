@@ -1,0 +1,13 @@
+PATCH_SIZE=448
+SPLIT_SIZE=400
+export PRED_SIZE=224
+export COLOR_NORM=True            # False or True
+
+# Model for color normalization
+export MCN=/home/weizhe.li/Training/HNM_models/noise_norm/googlenetv1_norm_noise_0212_02.14.20_13:06_Vahadane-01-0.92.hdf5
+
+# Model for color normalization - error
+# export MCN=/home/weizhe.li/Training/HNM_models/no_noise_no_norm/googlenetv1_no_noise_no_norm_0210_hnm_transfer_learn_02.10.20_09:31_original_256_patches-03-0.91.hdf5
+
+# previous
+# export MCN=/home/weizhe.li/Training/HNM_models/noise_norm/googlenetv1_norm_noise_0212_02.14.20_13:06_Vahadane-01-0.92.hdf5

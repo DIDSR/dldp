@@ -1,0 +1,17 @@
+TYPE=testing
+source ./config_generic_cn_true.txt
+
+FILE_DIR=/scratch/wxc4/CAMELYON16-testing
+LISTFILE=list_testing.txt
+SPLIT_BASE_DIR=/scratch/mikem/UserSupport/weizhe.li/"$TYPE"_sg_"$PATCH_SIZE"_"$SPLIT_SIZE"
+LOOKUP_FILE="$SPLIT_BASE_DIR"/lookup.txt                # cannot be csv extension
+NUM_HDF5_DS="$SPLIT_BASE_DIR"/num_hdf5_ds.txt
+export INDEX_DIR=/home/weizhe.li/li-code4hpc/pred_dim_0314/testing/patch_index
+
+
+# comes from config_generic.txt
+# PATCH_SIZE=448
+# SPLIT_SIZE=400
+# export PRED_SIZE=224
+# Model for color normalization
+# export MCN=/home/weizhe.li/Training/HNM_models/noise_norm/googlenetv1_norm_noise_0212_02.14.20_13:06_Vahadane-01-0.92.hdf5

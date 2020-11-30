@@ -1,0 +1,3 @@
+time bash time_stats_sg_V2.sh [test | normal | tumor] ROOT_DIR
+
+time bash time_stats_sg_V2.sh test /scratch/mikem/UserSupport/weizhe.li/runs_split_group/448_400_7691440
