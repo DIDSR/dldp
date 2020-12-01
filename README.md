@@ -10,21 +10,21 @@
 
 &nbsp;
 
-Code link: [Training image extraction](https://github.com/DIDSR/DeepLearningCamelyon/tree/master/dldp/dldp/patch_extract "image patch extraction")
+Code link: [Training image extraction](https://github.com/DIDSR/dldp/tree/master/dldp/patch_extract "image patch extraction")
 
-Code link: [Image processing](https://github.com/DIDSR/DeepLearningCamelyon/tree/master/dldp/dldp/image_process "image processing")
+Code link: [Image processing](https://github.com/DIDSR/dldp/tree/master/dldp/image_process "image processing")
 
-Code link: [Neural network training](https://github.com/DIDSR/DeepLearningCamelyon/tree/master/dldp/dldp/cnn_train "cnn training")
+Code link: [Neural network training](https://github.com/DIDSR/dldp/tree/master/dldp/cnn_train "cnn training")
 
-Code link: [Heatmap construction](https://github.com/DIDSR/DeepLearningCamelyon/tree/master/dldp/dldp/heatmap_pred "heatmap")
+Code link: [Heatmap construction](https://github.com/DIDSR/dldp/tree/master/dldp/heatmap_pred "heatmap")
 
-Code link: [Slide-based prediction](https://github.com/DIDSR/DeepLearningCamelyon/tree/master/dldp/dldp/model_eva/roc "ROC")
+Code link: [Slide-based prediction](https://github.com/DIDSR/dldp/tree/master/dldp/model_eva/roc "ROC")
 
-Code link: [Lesion-based prediction](https://github.com/DIDSR/DeepLearningCamelyon/tree/master/dldp/dldp/model_eva/froc "FROC")
+Code link: [Lesion-based prediction](https://github.com/DIDSR/dldp/tree/master/dldp/model_eva/froc "FROC")
 
-Code link: [WSI-heatmap visualization](https://github.com/DIDSR/DeepLearningCamelyon/tree/master/dldp/dldp/wsi_visu)
+Code link: [WSI-heatmap visualization](https://github.com/DIDSR/dldp/tree/master/dldp/wsi_visu)
 
-[Code Documentation](https://github.com/DIDSR/DeepLearningCamelyon/blob/master/dldp/docs/build/html/index.html)
+[Code Documentation](https://github.com/DIDSR/dldp/blob/master/docs/build/html/index.html)
 &nbsp;
 
 - Note: The codes were developed on python 3.5, but also work for python 3.6
